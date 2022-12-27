@@ -45,7 +45,7 @@ function onClickShowModal(e) {
     }
   );
 
-  function onEscPress(e) {
+    function onEscPress(e) {
     if (e.code === "Escape") {
       instance.close();
     }
@@ -53,3 +53,4 @@ function onClickShowModal(e) {
   instance.show();
 }
 console.log(galleryItems);
+
